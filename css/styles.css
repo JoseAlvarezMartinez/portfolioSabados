@@ -19,3 +19,26 @@ header{
 .carouselImg{
     height: 15rem;
 }
+
+/* Footer */
+
+footer{
+    background-image: url(../img/footer.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.logoFooter{
+    width: 3rem;
+}
+.logoContainer{
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 50%;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
