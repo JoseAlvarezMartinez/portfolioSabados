@@ -1,0 +1,14 @@
+header{
+    background-image: url(../img/headerBackground.jpg);
+    background-size: cover;
+    height: 95vh;
+}
+.header-btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+}
+.fondo-oscuro{
+    background-color: rgba(0, 0, 0, 0.449);
+}
