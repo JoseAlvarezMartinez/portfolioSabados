@@ -1,3 +1,5 @@
+
+/* Header */
 header{
     background-image: url(../img/headerBackground.jpg);
     background-size: cover;
@@ -11,4 +13,9 @@ header{
 }
 .fondo-oscuro{
     background-color: rgba(0, 0, 0, 0.449);
+}
+
+/* Mis Proyectos */
+.carouselImg{
+    height: 15rem;
 }

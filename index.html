@@ -7,52 +7,92 @@
     <title>José Alvarez Desarrollador Front End</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header class="position-relative">
         <div class="position-absolute w-100 h-100 fondo-oscuro">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">José Alvarez</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre Mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Mis Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">José Alvarez</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre Mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Mis Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
-        <section class="d-flex flex-column justify-content-center h-100 px-5">
-        <h1 class="text-white d-flex flex-column align-items-center">José Alvarez <span class="fs-5 fw-lighter">Desarrollador Front End</span></h1>
-        <button class="header-btn">Descargar CV</button>
-        </section>
+            <section class="d-flex flex-column justify-content-center h-100 px-5">
+                <h1 class="text-white d-flex flex-column align-items-center">José Alvarez <span
+                        class="fs-5 fw-lighter">Desarrollador Front End</span></h1>
+                <button class="header-btn">Descargar CV</button>
+            </section>
         </div>
     </header>
 
     <section class="p-4">
         <h2 class="text-decoration-underline link-offset-3">Sobre Mi</h2>
 
-        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam amet vero delectus cum reiciendis labore non dignissimos eius quis, consectetur tenetur ipsa officiis? Eius perferendis quidem quam delectus corrupti repellat distinctio, aliquam, libero tempora asperiores odit rem! Explicabo at eum optio, beatae maiores eaque reiciendis! Iste nulla perspiciatis totam consequatur?</p>
+        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam amet vero delectus cum
+            reiciendis labore non dignissimos eius quis, consectetur tenetur ipsa officiis? Eius perferendis quidem quam
+            delectus corrupti repellat distinctio, aliquam, libero tempora asperiores odit rem! Explicabo at eum optio,
+            beatae maiores eaque reiciendis! Iste nulla perspiciatis totam consequatur?</p>
     </section>
 
+    <main class="p-4">
+        <h2 class="text-decoration-underline link-offset-3 mb-4">Mis Proyectos</h2>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/proyectoCountries.png" class="d-block w-100 carouselImg"
+                        alt="Proyecto Rest Countries">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/proyectoFenox.png" class="d-block w-100 carouselImg" alt="Proyecto Fenox">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/proyectoCriptomonedas.png" class="d-block w-100 carouselImg"
+                        alt="Proyecto Criptomonedas">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/proyectoHisl.png" class="d-block w-100 carouselImg" alt="Proyecto Hisl">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/proyectoSpace.png" class="d-block w-100 carouselImg" alt="Proyecto Space Tourism">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quas illo minus itaque fugit
+            dolores porro, exercitationem quo ex fugiat nam, reiciendis quia, excepturi beatae.</p>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
